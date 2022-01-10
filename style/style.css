@@ -1,0 +1,169 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color:rgb(36, 36, 36);
+    color:white;
+    font-family: 'Audiowide', cursive;
+}
+.logo-div{
+    display:flex;
+    justify-content: center;
+    margin-top:1vh;
+    margin-bottom:2vh
+}
+.logo{
+    width:10vh;
+}
+.content-container{
+    background-color: rgb(98, 98, 98);
+    margin:auto;
+    width:60vw;
+    height: auto;
+    margin-bottom:5vh;
+    border-radius:3vh;
+}
+.header{
+    display:flex;
+    flex-direction: row;
+}
+.portrait{
+    height:20vw;
+    width:20vw;
+    margin-left:2vh;
+    margin-top:2vh;
+    border-radius: 50%;
+}
+h1,
+h1>p{
+    align-self: center;
+    text-align: center;
+    margin-left:4vw;
+    font-size:4vw;
+    font-family: 'Audiowide', cursive;
+}
+.orange{
+    color:#FEBF00;
+}
+hr{
+    margin:auto;
+    margin-bottom:3vh;
+    margin-top:3vh;
+    height:1vh;
+    background-color:#FEBF00;
+    border-radius: 1vh;;
+    width:90%;
+}
+.about{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+h2{
+    margin:auto;
+    margin-bottom:2vh;
+    font-size:5vh;
+}
+p{
+    font-size:1.5vw;
+    margin-left:3vh;
+    margin-right:3vh;
+    text-align: center;
+    
+}
+.timeline{
+    display:flex;
+    flex-direction: column;
+}
+ul{
+    text-align: left;
+    margin-left:10vh;
+    margin-right:10vh;
+    font-size:2vh;
+}
+li{
+    margin-bottom:2vh;
+}
+.tweet{
+    margin:auto;
+    width:40vw;
+    border-radius: 20px;
+    margin-bottom:1vh;
+}
+
+.family{
+    width:30vw;
+    height:30vw;
+    margin:auto;
+    margin-top:2vh;
+    margin-bottom:1vh;
+}
+.img-desc{
+    margin-bottom:2vh;
+}
+.footer{
+    padding-bottom:1vw;
+}
+.footer>p{
+    margin-left:1vw;
+    margin-right:1vw;
+    font-size:1.4vw;
+}
+
+@media(max-width:1200px){
+    .content-container{
+        border-radius:0;
+        width:100%;
+        margin-bottom:0;
+    }
+    h1{
+        font-size:7vw;
+    }
+    .portrait{
+        width:40vw;
+        height: 40vw;
+        margin:auto;
+        margin-top:2vw;
+    }
+    .header{
+        flex-direction: column;
+    }
+    h1>p{
+        font-size:8vw;
+    }
+    h2{
+        font-size:5vh;
+    }
+    p{
+        font-size:2vh;
+    }
+    .footer>p{
+        font-size:2.3vw;
+    }
+    hr{
+        width:95%
+    }
+    .tweet{
+        width:70vw;
+    }
+    .family{
+        width:70vw;
+        height:70vw;
+    }
+    ul{
+        margin-left:10vw;
+        margin-right:10vw;
+    }
+    
+    
+}
+
+@media(max-width:500px){
+    .footer>p{
+        font-size:3vw;
+    }
+}
